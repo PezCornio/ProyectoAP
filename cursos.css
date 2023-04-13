@@ -1,0 +1,11 @@
+.cursos_contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursos_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

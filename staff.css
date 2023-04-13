@@ -1,0 +1,11 @@
+.staff_bloque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.staff_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
