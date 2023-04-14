@@ -8,4 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #102e60;
+    color: #ec707e;
+    font-weight: bold;
 }
