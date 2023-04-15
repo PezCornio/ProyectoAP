@@ -18,3 +18,21 @@
     width: 40px;
     height: 200px;
 }
+
+.cursos_acordion_lista {
+    list-style: circle;
+}
+
+.card-header {
+    background-color: #c1c2cd !important;
+    font-weight: 400;
+    text-align: left !important;
+    
+}
+
+.cursos_card_btn {
+    border: 0;
+    color: #ec707e;
+    font-weight: bold;
+    background-color: white;
+}

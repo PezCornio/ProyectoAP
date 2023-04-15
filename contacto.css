@@ -1,6 +1,22 @@
 .contacto_contenedor {
     width: 300px;
-    background-color: lightgray;
+    background-color: #aabbc1;
     border-radius: 3px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contacto_input {
+    outline-color: #ec707e !important;
+}
+
+
+
+
+.formulario_enviado {
+    display: flex;
+    justify-content: center;
+}
+
+.tabla_defecto {
+    font-weight: bold;
 }
