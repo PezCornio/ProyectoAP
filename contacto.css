@@ -20,3 +20,7 @@
 .tabla_defecto {
     font-weight: bold;
 }
+
+form .error {
+    color: #ff0000;
+  }
