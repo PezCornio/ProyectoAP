@@ -53,7 +53,7 @@
     <section class="Presentacion">
         <div class="container mt-3  carousel_contenedor">
           <div class="row carousel_selector">
-            <div class="col-12 col-lg-12 col-md-12 col-sm-12 ">
+            <div class="col-9 col-lg-12 col-md-12 col-sm-12 mw-1024">
           
               <div id="carouselPresentacion" class="carousel slide " data-bs-ride="carousel">
 
@@ -273,7 +273,7 @@
         <div class="container mt-3 staff_contenedor ">
             <div class="row staff_bloque ">
                 <h3 class="staff_titulo mt-2 mb-3 col-9 col-sm-11 col-md-11 col-lg-11 ">Nuestro profesores</h3>
-                <div class="col-6 col-md-3 col-sm-4 col-lg-4 staff_avatar ">
+                <div class="col-8 col-md-3 col-sm-4 col-lg-4 mb-2 staff_avatar ">
                     <div class="card">
                         <img class="card-img-top" src="img/myAvatar.svg" alt="Card image">
                         <div class="card-body">
@@ -282,7 +282,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-6 col-md-3 col-sm-4 col-lg-4 staff_avatar">
+                <div class="col-8 col-md-3 col-sm-4 col-lg-4 mb-2 staff_avatar">
                     <div class="card">
                         <img class="card-img-top" src="img/myAvatar3.svg" alt="Card image">
                         <div class="card-body">
@@ -291,7 +291,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-6 col-md-3 col-sm-4 col-lg-4 staff_avatar ">
+                <div class="col-8 col-md-3 col-sm-4 col-lg-4 mb-2 staff_avatar ">
                     <div class="card">
                         <img class="card-img-top" src="img/myAvatar2.svg" alt="Card image">
                         <div class="card-body">
@@ -302,6 +302,22 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="comentarios">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 col-md-3 col-sm-4 col-lg-4 mb-2">
+            <div class="card" id="comenta1_card">
+              <img class="card-img-top" src="" id="comenta1_foto" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title" id="comenta1_nombre"></h4>
+                <p class="card-text" id="comenta1_ubicaion"></p>
+                <p class="card-text" id="comenta1_mensaje"></p>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
     </section>
 
     <section class="contacto">
@@ -446,5 +462,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
     <script src="validaciones.js"></script>
+    <script src="api.js"></script>
 </body>
 </html>
