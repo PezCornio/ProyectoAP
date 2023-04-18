@@ -1,0 +1,16 @@
+.carousel_contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carousel_selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_primero {
+    background-image: url(img/presentacion1.jpg);
+}
