@@ -9,6 +9,16 @@
     outline-color: #ec707e !important;
 }
 
+.contacto_container {
+    background: linear-gradient(0deg, rgba(16,46,96,1) 16%, rgba(255,255,255,1) 100%);
+}
+
+.contacto_titulo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 

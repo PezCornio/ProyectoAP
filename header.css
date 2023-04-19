@@ -1,5 +1,8 @@
+
+
 .navbar {
     background-color: #102e60;
+    border: solid #102e60 1 !important;
 }
 
 .navbar_logo {

@@ -13,6 +13,8 @@ var currentTab = 0; // Current tab is set to be the first tab (0)
           }
           if (n == (x.length - 1)) {
             document.getElementById("nextBtn").innerHTML = "Enviar";
+            document.getElementById("nextBtn").setAttribute("data-bs-toggle", "modal");
+            document.getElementById("nextBtn").setAttribute("data-bs-target","#contacto_modal");
             
           } else {
             document.getElementById("nextBtn").innerHTML = "Siguiente";
